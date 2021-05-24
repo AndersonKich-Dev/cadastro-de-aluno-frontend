@@ -1,10 +1,10 @@
-
+import * as S from './styles/AppStyle'
 
  function App() {
   return (
-    <div >
+    <S.Container >
       <h1>Hello world</h1>
-    </div>
+    </S.Container>
   );
 }
 
