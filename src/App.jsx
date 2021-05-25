@@ -1,10 +1,16 @@
 import * as S from './styles/AppStyle'
+import Routes from './config/routes'
+import { ThemeProvider  } from 'styled-components'
+import lightTheme from './themes/light'
+
 
  function App() {
   return (
-    <S.Container >
-      <h1>Hello world</h1>
-    </S.Container>
+    <ThemeProvider theme={lightTheme}>
+      <S.Container >
+        <Routes/>
+      </S.Container>
+    </ThemeProvider>
   );
 }
 
