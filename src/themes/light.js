@@ -12,6 +12,7 @@ export default{
         gray_50: '#f7f8fa',
         gray_100: '#e6e8eb',
         gray_200: '#a0a0a0',
+        gray_500: '#313439',
         gray_600: '#494d4b',
 
         blue_200: '#03a9f4',

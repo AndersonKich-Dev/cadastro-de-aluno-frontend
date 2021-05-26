@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { Container } from './styles'
+import { FaUserPlus, FaListUl } from 'react-icons/fa'
 
 
 export default function Home(){
@@ -12,11 +13,11 @@ export default function Home(){
 
             <ul>
                 <li>
-                    <Link to='/cadastro'>Cadastrar Aluno</Link>
+                    <Link to='/cadastro/aluno'><FaUserPlus/></Link>
                 </li>
 
                 <li>
-                    <p>Listar Alunos</p>
+                    <Link to='/list/aluno'><FaListUl/></Link>
                 </li>
 
             </ul>
